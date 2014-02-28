@@ -1,0 +1,27 @@
+'exception-reporting':
+  'userId': '6cbceb7c-7f65-977d-f098-50c66a9808e4'
+'release-notes':
+  'viewedVersion': '0.61.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'd25a49bf2f02cc4cb712a28a3cb0a84ad120fb24'
+'editor':
+  'fontSize': 15
+  'tabLength': 4
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+'spell-check':
+  'grammars': [
+    'source.gfm'
+    'text.git-commit'
+    'text.plain'
+  ]

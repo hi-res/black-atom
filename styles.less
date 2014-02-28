@@ -1,0 +1,43 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+.tree-view-resizer{
+
+}
+
+.focusable-panel,
+.tree-view {
+    background-image: url('http://localhost/hires.png');
+    background-repeat: no-repeat;
+    background-position: 25px 19px;
+}
+
+.focusable-panel{
+    background: url('http://localhost/hires.png') no-repeat 25px 19px #303030 !important;
+}
+
+.tree-view {
+    & > .directory{
+        padding-top: 80px
+    }
+}
+
+.editor {
+
+}
+
+.editor .cursor {
+
+}
+
+// Fix for zen mode with Monokai theme
+.zen .panes .pane{
+  background-color: #272822;
+}
