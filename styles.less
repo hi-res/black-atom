@@ -8,19 +8,21 @@
  * http://www.lesscss.org
  */
 
+@hires_logo : 'https://raw.github.com/hi-res/black-atom/master/hires.png';
+
 .tree-view-resizer{
 
 }
 
 .focusable-panel,
 .tree-view {
-    background-image: url('https://raw.github.com/hi-res/black-atom/master/hires.png');
+    background-image: url(@hires_logo);
     background-repeat: no-repeat;
     background-position: 25px 19px;
 }
 
 .focusable-panel{
-    background: url('/Users/hires/.atom/hires.png') no-repeat 25px 19px #303030 !important;
+    background: url(@hires_logo) no-repeat 25px 19px #303030 !important;
 }
 
 .tree-view {
